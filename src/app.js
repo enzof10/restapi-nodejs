@@ -10,6 +10,7 @@ app.set("port",4000);
 
 // Middlewares (funciones que se ejecutan antes de que llegue a la ruta)
 app.use(morgan("dev"));
+app.use(express.json());
 
 // Routes
 app.use("/api/languages",languageRoutes);

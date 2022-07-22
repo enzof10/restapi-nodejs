@@ -1,4 +1,4 @@
-import mysql from "mysql";
+import mysql from "promise-mysql";
 import config from "../config";
 console.log("config: ", config);
 
@@ -10,13 +10,6 @@ const connection = mysql.createConnection({
   port: config.port,
 });
 
-connection.connect((err) => {
-  if (err) {
-    console.error(err);
-  } else {
-    console.log("Connected to database");
-  }
-});
 
 const getConnection = () => {
   return connection;

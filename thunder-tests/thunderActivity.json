@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "cff53fc7-5394-40bb-b8ca-02d7c945c2b2",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/api/languages",
+    "url": "localhost:4000/api/languages",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-07-22T17:26:45.980Z",
+    "modified": "2022-07-22T17:40:21.446Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"languageName\" : \"Rust\",\n    \"content\": \"contenido de Rust\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f83a3e2f-71e2-45cb-bd20-1022d33e4688",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:4000/api/languages/2",
+    "url": "http://localhost:4000/api/languages/2",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-07-22T17:49:31.509Z",
+    "modified": "2022-07-22T17:49:32.036Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"languageName\" : \"Rust\",\n    \"content\": \"contenido de Rust\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
